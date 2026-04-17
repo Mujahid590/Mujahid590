@@ -1,16 +1,50 @@
-# Hi there
+        .bio-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
 
-<!--
-**Mujahid590/Mujahid590** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+        .bio-title i {
+            color: #3b82f6;
+            font-size: 1.5rem;
+        }
 
-Here are some ideas to get you started:
+        .bio-text {
+            font-size: 1.02rem;
+            color: #e2eaff;
+            line-height: 1.6;
+        }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        .highlight {
+            color: #91b4ff;
+            font-weight: 500;
+        }
+
+        /* repo showcase */
+        .repo-showcase {
+            padding: 1rem 2rem 2rem 2rem;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-header i {
+            font-size: 1.8rem;
+            color: #5282ff;
+        }
+
+        .section-header h2 {
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+
+        .repo-grid {
+            display: flex;
+            flex-wrap: wrap;
